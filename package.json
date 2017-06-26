@@ -1,0 +1,32 @@
+{
+  "name": "meanauthapp",
+  "version": "0.1.0",
+  "description": "MEAN Stack App Template",
+  "main": "server.js",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.3",
+    "express": "^4.15.3",
+    "jsonwebtoken": "^7.4.1",
+    "morgan": "^1.8.2",
+    "mongoose": "^4.11.0",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WebGaze/meanauthapp.git"
+  },
+  "author": "James Cornelison",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WebGaze/meanauthapp/issues"
+  },
+  "homepage": "https://github.com/WebGaze/meanauthapp#readme"
+}
